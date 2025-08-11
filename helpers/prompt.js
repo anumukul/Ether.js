@@ -1,8 +1,10 @@
 const prompt = require('prompt')
+
+
 const schema = {
   properties: {
     privateKey: {
-      message: 'Enter Private Key',
+      message:"Enter private key",
       required: true,
       hidden: true
     },

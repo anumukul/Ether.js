@@ -9,7 +9,7 @@ require("dotenv").config();
 
 
 
-const url=process.env.url;
+const url=process.env.infura_rpc_url;
 
 const provider=new ethers.JsonRpcProvider(url);
 
@@ -31,7 +31,7 @@ async function main() {
   console.log("Balance:",balanceInEther);
 
 
-  // Log balance
+  
 }
 
 main()
